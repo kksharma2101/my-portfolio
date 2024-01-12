@@ -1,8 +1,9 @@
 import express from "express";
+import "dotenv/config";
 
 const app = express();
 
-const port = 3030;
+const port = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
   res.send("server is live");
