@@ -5,6 +5,7 @@ import {
   MdOutlineArrowBackIos,
   MdOutlineArrowForwardIos,
 } from "react-icons/md";
+import Menu from "./menus/Menu";
 
 const Layout = () => {
   const [toggle, setToggle] = useState(false);
@@ -27,6 +28,7 @@ const Layout = () => {
               )}
             </p>
           </div>
+          <Menu toggle={toggle} />
         </div>
         <div className="container">
           <Home />
