@@ -1,8 +1,10 @@
+import Layout from "./components/layout/Layout";
+
 function App() {
   return (
-    <div>
-      <h2>Hello world</h2>
-    </div>
+    <>
+      <Layout />
+    </>
   );
 }
 
