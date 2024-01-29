@@ -18,7 +18,7 @@ const Layout = () => {
   return (
     <>
       <div className="sidebar-section">
-        <div className={toggle ? "sidebar-toggle" : "sidebar"}>
+        <div className={toggle ? "sidebar-toggle sidebar" : "sidebar"}>
           <div className="sidebar-toggle-icons">
             <p onClick={handleToggle}>
               {!toggle ? (
