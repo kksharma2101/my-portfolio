@@ -56,33 +56,33 @@ const Menu = ({ toggle }) => {
         <>
           <div className="nav-items">
             <div className="nav-link">
-              <p>
-                <FcHome />
+              <p className="only-svg">
+                <FcHome title="Home" />
               </p>
             </div>
             <div className="nav-link">
-              <p>
-                <FcAbout />
+              <p className="only-svg">
+                <FcAbout title="About" />
               </p>
             </div>
             <div className="nav-link">
-              <p>
-                <MdOutlineWorkOutline />
+              <p className="only-svg">
+                <MdOutlineWorkOutline title="Experience" />
               </p>
             </div>
             <div className="nav-link">
-              <p>
-                <IoIosContact />
+              <p className="only-svg">
+                <IoIosContact title="Contact" />
               </p>
             </div>
             <div className="nav-link">
-              <p>
-                <MdCastForEducation />
+              <p className="only-svg">
+                <MdCastForEducation title="Education" />
               </p>
             </div>
             <div className="nav-link">
-              <p>
-                <GrProjects />
+              <p className="only-svg">
+                <GrProjects title="Projects" />
               </p>
             </div>
           </div>
