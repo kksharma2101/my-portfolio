@@ -1,6 +1,30 @@
 .home-container {
-  /* width: 100%; */
   background-color: #000;
   height: 300px;
   color: #fff;
+}
+.home-content h1 {
+  padding-top: 70px;
+  font-weight: 700;
+}
+.home-content h2 {
+  color: #e6ed2c;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.home-content > .home-button {
+  padding-top: 14px;
+}
+.home-content > .home-button > .btn {
+  border: none;
+  background-color: #624bfc;
+  color: #ffffffff;
+  font-size: 25px;
+}
+.home-content > .home-button > .btn-cv {
+  margin-left: 30px;
+}
+.home-content > .home-button > .btn:hover {
+  opacity: 0.8;
+  transition: 1s;
 }
