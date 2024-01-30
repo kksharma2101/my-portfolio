@@ -8,8 +8,8 @@ const Home = () => {
     <>
       <div className="container-fluid home-container">
         <div className="container home-content">
-          <h1>Hi I'm a</h1>
-          <h2>
+          <h2>Hi 👋 I'm a</h2>
+          <h1>
             <Typewriter
               options={{
                 strings: ["Full Stack Web Developer !", "MERN Developer !"],
@@ -17,7 +17,7 @@ const Home = () => {
                 loop: true,
               }}
             />
-          </h2>
+          </h1>
           <div className="home-button">
             <button className="btn btn-hire">Hire Me</button>
             <a className="btn btn-cv" href={Resume}>

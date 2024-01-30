@@ -30,7 +30,7 @@ const Layout = () => {
           </div>
           <Menu toggle={toggle} />
         </div>
-        <div className={!toggle ? "container" : "container1"}>
+        <div className="container">
           <Home />
         </div>
       </div>
