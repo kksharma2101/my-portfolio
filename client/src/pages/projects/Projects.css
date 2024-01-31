@@ -1,0 +1,17 @@
+.projects > {
+  margin-left: 3rem;
+}
+.projects > .heading {
+  margin-top: 40px;
+}
+.projects > .heading > h1 {
+  color: #8a2be2;
+  font-weight: 700;
+  border-bottom: 2px solid #784ba2;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.projects > .heading > p {
+  text-align: center;
+}

@@ -1,11 +1,18 @@
 import Layout from "./components/layout/Layout";
 import About from "./pages/about/About";
+import TechStack from "./pages/techstack/TechStack";
+import "./App.css";
+import Projects from "./pages/projects/Projects";
 
 function App() {
   return (
     <>
-      <Layout />
-      <About />
+      <div className="app">
+        <Layout />
+        <About />
+        <TechStack />
+        <Projects />
+      </div>
     </>
   );
 }

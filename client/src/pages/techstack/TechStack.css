@@ -1,0 +1,44 @@
+.main-container {
+  margin-left: 3rem;
+  padding-top: 20px;
+}
+.main-container > h1 {
+  color: #8a2be2;
+  font-weight: 700;
+  border-bottom: 2px solid #784ba2;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.main-container > h1,
+p {
+  text-align: center;
+}
+.row {
+  width: 100%;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.techstack {
+  margin: 10px;
+}
+.tech-stack {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  border: 1px solid green;
+  gap: 5px;
+  cursor: pointer;
+}
+.media-body > .tech-icon {
+  font-size: 22px;
+}
+.tech-stack:hover {
+  background-color: #1e1ede;
+  color: #fff;
+  transition: 1s;
+}
