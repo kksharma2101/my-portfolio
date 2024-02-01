@@ -1,0 +1,33 @@
+/* .projects > {
+  margin-left: 3rem;
+} */
+/* .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+.education > .row > .heading {
+  text-align: center;
+  padding-left: 3.5rem;
+  margin: 40px auto;
+}
+.education > .row > .heading > h1 {
+  color: #138781;
+  font-weight: bold;
+}
+.education > .row > .heading > hr {
+  color: #138781;
+  width: 250px;
+  margin: 10px auto 20px auto;
+}
+.education > .row > .main-container {
+  padding-left: 3.5rem;
+  display: flex;
+}
+
+@media screen and (min-width: 1160px) {
+  .education > .row > .main-container {
+    width: 100%;
+  }
+}

@@ -1,8 +1,6 @@
 .about {
   padding-top: 18px;
   margin-left: 3rem;
-  background-color: #acf8ff;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .about > .row {
   display: flex;
@@ -34,4 +32,5 @@
 .about-text p {
   text-align: justify;
   padding: 20px;
+  color: #fff;
 }

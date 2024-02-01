@@ -27,7 +27,7 @@ const Projects = () => {
                 <span>MongoDB</span>
               </div>
               <div className="link-btn">
-                <h4 className="text-uppercase">E-commerce Shopping Website</h4>
+                <h5 className="text-uppercase">E-commerce Shopping Website</h5>
                 <a href="https://e-commerce-5n6kzehm5-kamal-sharmas-projects.vercel.app/">
                   View
                 </a>

@@ -3,7 +3,7 @@ import "./Menu.css";
 import { FcAbout, FcHome } from "react-icons/fc";
 import { MdCastForEducation, MdOutlineWorkOutline } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
-import { GrProjects } from "react-icons/gr";
+import { GrProjects, GrTechnology } from "react-icons/gr";
 
 const Menu = ({ toggle }) => {
   return (
@@ -28,6 +28,24 @@ const Menu = ({ toggle }) => {
             </div>
             <div className="nav-link">
               <p>
+                <MdCastForEducation />
+                Education
+              </p>
+            </div>
+            <div className="nav-link">
+              <p>
+                <GrTechnology />
+                Technology
+              </p>
+            </div>
+            <div className="nav-link">
+              <p>
+                <GrProjects />
+                Project
+              </p>
+            </div>
+            <div className="nav-link">
+              <p>
                 <MdOutlineWorkOutline />
                 Experince
               </p>
@@ -36,18 +54,6 @@ const Menu = ({ toggle }) => {
               <p>
                 <IoIosContact />
                 Contact
-              </p>
-            </div>
-            <div className="nav-link">
-              <p>
-                <MdCastForEducation />
-                Education
-              </p>
-            </div>
-            <div className="nav-link">
-              <p>
-                <GrProjects />
-                Project
               </p>
             </div>
           </div>
@@ -67,17 +73,22 @@ const Menu = ({ toggle }) => {
             </div>
             <div className="nav-link">
               <p className="only-svg">
+                <MdCastForEducation title="Education" />
+              </p>
+            </div>
+            <div className="nav-link">
+              <p className="only-svg">
+                <GrTechnology title="Technology" />
+              </p>
+            </div>
+            <div className="nav-link">
+              <p className="only-svg">
                 <MdOutlineWorkOutline title="Experience" />
               </p>
             </div>
             <div className="nav-link">
               <p className="only-svg">
                 <IoIosContact title="Contact" />
-              </p>
-            </div>
-            <div className="nav-link">
-              <p className="only-svg">
-                <MdCastForEducation title="Education" />
               </p>
             </div>
             <div className="nav-link">
