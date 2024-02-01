@@ -1,0 +1,62 @@
+.contact > .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.contact > .row > .heading {
+  text-align: center;
+  padding-left: 3.5rem;
+  margin: 40px auto;
+}
+.contact > .row > .heading > h1 {
+  color: #138781;
+  font-weight: bold;
+  text-align: center;
+}
+.contact > .row > .heading > hr {
+  color: #138781;
+  width: 220px;
+  margin: 10px auto 20px auto;
+}
+
+.contact > .row > .main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 90px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+.contact > .row > .main-container > .img > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.contact > .row > .main-container > .details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.contact > .row > .main-container > .details > input,
+textarea {
+  margin-bottom: 20px;
+  width: 90%;
+  padding: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.contact > .row > .main-container > .details > button {
+  border: none;
+  background-color: #1e1ed1;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 200px;
+}

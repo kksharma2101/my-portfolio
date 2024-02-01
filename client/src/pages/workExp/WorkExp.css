@@ -1,4 +1,4 @@
-.row {
+.experience > .row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,4 @@
   color: #138781;
   width: 320px;
   margin: 10px auto 20px auto;
-}
-.experience > .row > .heading > p {
-  color: #ffffff;
 }

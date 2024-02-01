@@ -5,6 +5,7 @@ import "./App.css";
 import Projects from "./pages/projects/Projects";
 import Education from "./pages/education/Education";
 import WorkExp from "./pages/workExp/WorkExp";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <TechStack />
         <Projects />
         {/* <WorkExp /> */}
+        <Contact />
       </div>
     </>
   );
