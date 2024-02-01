@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className="about">
       <div className="row">
-        <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
+        <div className="col-md-5 about-img">
           <img src="my-pic2.jpg" alt="profile pic" />
         </div>
-        <div className="col-md-6 about-container">
+        <div className="col-md-5 about-text">
           <h1>About Me</h1>
           <p>
             Callback function to replace the internal method which creates a

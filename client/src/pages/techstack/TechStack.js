@@ -5,24 +5,37 @@ import { TechstackList } from "./TechstackList";
 const TechStack = () => {
   return (
     <>
-      <div className="main-container">
-        <h1>Technology Stack</h1>
-        <p>
-          👉 Including Programing Languases, Framworkes, Databases, Front-end
-          and Back-end Tools and APIs
+      <div className="container techstack" id="techstack">
+        {/* <RubberBand> */}
+        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+          Technologies Stack
+        </h2>
+        <hr />
+        <p className="pb-3 text-center">
+          👉 including programming Languages, frameworks, databses, front-end
+          and back-end tools, and APIs
         </p>
+        {/* </RubberBand> */}
         <div className="row">
           {TechstackList.map((tech) => (
-            <div className="col-md-3 techstack" key={tech._id}>
-              <div className="tech-stack">
-                <div className="media-body">
-                  <tech.icon className="tech-icon" />
-                </div>
-                <div>
-                  <h5>{tech.name}</h5>
+            // <Fade left>
+            <div key={tech._id} className="col-md-3">
+              <div className="card m-2">
+                <div className="card-content">
+                  <div className="card-body">
+                    <div className="media d-flex justify-content-center">
+                      <div className="alig-self-center">
+                        <tech.icon className="tech-icon" />
+                      </div>
+                      <div className="media-body">
+                        <h5>{tech.name}</h5>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            /* </Fade> */
           ))}
         </div>
       </div>
