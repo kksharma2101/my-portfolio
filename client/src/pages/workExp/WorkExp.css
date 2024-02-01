@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.experience > .row > .heading {
+  text-align: center;
+  padding-left: 3.5rem;
+  margin: 40px auto;
+}
+.experience > .row > .heading > h1 {
+  color: #138781;
+  font-weight: bold;
+  text-align: center;
+}
+.experience > .row > .heading > hr {
+  color: #138781;
+  width: 320px;
+  margin: 10px auto 20px auto;
+}
+.experience > .row > .heading > p {
+  color: #ffffff;
+}
