@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { TiSocialGithub, TiSocialLinkedin } from "react-icons/ti";
 
 const Contact = () => {
   return (
@@ -16,13 +16,15 @@ const Contact = () => {
               <img src="my-pic2.jpg" alt="contact" />
             </div>
             <div className="col-md-7 details">
+              <h4>Please submit your details</h4>
+              <hr />
               <input type="text" name="name" placeholder="Write your name" />
               <input type="email" name="email" placeholder="Write your email" />
               <textarea placeholder="Write your email" />
               <button>Send</button>
               <div className="icons">
-                <FaLinkedin />
-                <FaGithub />
+                <TiSocialLinkedin />
+                <TiSocialGithub />
               </div>
             </div>
           </div>

@@ -21,64 +21,64 @@ export const TechstackList = [
   },
   {
     _id: 2,
-    name: "CSS / SCSS",
-    icon: BsFiletypeCss,
-  },
-  {
-    _id: 3,
     name: "Bootstrap",
     icon: BsBootstrap,
   },
   {
-    _id: 4,
+    _id: 3,
     name: "Javascript",
     icon: SiJavascript,
   },
   {
-    _id: 5,
+    _id: 4,
     name: "TypeScript",
     icon: SiTypescript,
   },
   {
-    _id: 6,
+    _id: 5,
     name: "React JS",
     icon: SiReact,
   },
   {
-    _id: 7,
+    _id: 6,
     name: "Nextjs",
     icon: TbBrandNextjs,
   },
   {
-    _id: 8,
+    _id: 7,
     name: "React MUI",
     icon: SiMui,
   },
   {
-    _id: 9,
+    _id: 8,
     name: "Tailwind ",
     icon: SiTailwindcss,
   },
   {
-    _id: 10,
+    _id: 9,
     name: "Node JS ",
     icon: FaNodeJs,
   },
   {
-    _id: 11,
+    _id: 10,
     name: "Express JS ",
     icon: SiExpress,
   },
 
   {
-    _id: 12,
+    _id: 11,
     name: "Mongodb ",
     icon: SiMongodb,
   },
   {
-    _id: 13,
+    _id: 12,
     name: "SQL ",
     icon: SiMysql,
+  },
+  {
+    _id: 13,
+    name: "CSS / SCSS",
+    icon: BsFiletypeCss,
   },
   {
     _id: 14,

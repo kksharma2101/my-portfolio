@@ -29,11 +29,14 @@
   border-radius: 10px;
   margin-left: 90px;
   background-color: #fff;
-  flex-wrap: wrap;
+}
+.contact > .row > .main-container > .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact > .row > .main-container > .img > img {
-  width: 300px;
-  height: 300px;
+  width: 18rem;
   border-radius: 10px;
 }
 .contact > .row > .main-container > .details {
@@ -42,6 +45,15 @@
   justify-content: center;
   flex-direction: column;
   padding-left: 30px;
+}
+.contact > .row > .main-container > .details > h4 {
+  color: #138781;
+  text-transform: uppercase;
+}
+.contact > .row > .main-container > .details > hr {
+  color: #138781;
+  width: 300px;
+  margin: 10px auto 20px auto;
 }
 .contact > .row > .main-container > .details > input,
 textarea {
@@ -59,4 +71,35 @@ textarea {
   border-radius: 10px;
   font-size: 20px;
   width: 200px;
+}
+.contact > .row > .main-container > .details > button:hover {
+  opacity: 0.8;
+}
+.contact > .row > .main-container > .details > .icons {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+.contact > .row > .main-container > .details > .icons > svg {
+  font-size: 40px;
+  padding: 5px;
+  background-color: #f8a6a6;
+  border-radius: 50px;
+}
+.contact > .row > .main-container > .details > .icons > svg:hover {
+  padding: 3px;
+  color: #1e1ed1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 776px) {
+  .contact > .row > .main-container {
+    flex-direction: column;
+  }
+  .contact > .row > .main-container > .details > h4 {
+    margin-top: 28px;
+  }
 }

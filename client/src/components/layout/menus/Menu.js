@@ -1,7 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import { FcAbout, FcHome } from "react-icons/fc";
-import { MdCastForEducation, MdOutlineWorkOutline } from "react-icons/md";
+import { MdCastForEducation } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { GrProjects, GrTechnology } from "react-icons/gr";
 
@@ -44,12 +44,12 @@ const Menu = ({ toggle }) => {
                 Project
               </p>
             </div>
-            <div className="nav-link">
+            {/* <div className="nav-link">
               <p>
                 <MdOutlineWorkOutline />
                 Experince
               </p>
-            </div>
+            </div> */}
             <div className="nav-link">
               <p>
                 <IoIosContact />
@@ -83,17 +83,17 @@ const Menu = ({ toggle }) => {
             </div>
             <div className="nav-link">
               <p className="only-svg">
-                <MdOutlineWorkOutline title="Experience" />
+                <GrProjects title="Projects" />
               </p>
             </div>
+            {/* <div className="nav-link">
+              <p className="only-svg">
+                <MdOutlineWorkOutline title="Experience" />
+              </p>
+            </div> */}
             <div className="nav-link">
               <p className="only-svg">
                 <IoIosContact title="Contact" />
-              </p>
-            </div>
-            <div className="nav-link">
-              <p className="only-svg">
-                <GrProjects title="Projects" />
               </p>
             </div>
           </div>
