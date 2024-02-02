@@ -5,77 +5,82 @@ import { FcAbout, FcHome } from "react-icons/fc";
 import { MdCastForEducation } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { GrProjects, GrTechnology } from "react-icons/gr";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Menu = ({ toggle }) => {
   return (
     <>
       {toggle ? (
         <>
-          <div className="navbar-profile-pic">
-            <img src="my-pic2.jpg" alt="profile pic" />
-          </div>
-          <div className="nav-items">
-            <div className="nav-link">
-              <Link
-                to="home"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={100}
-              >
-                <FcHome className="svg" />
-                Home
-              </Link>
+          <Zoom>
+            <div className="navbar-profile-pic">
+              <img src="my-pic2.jpg" alt="profile pic" />
             </div>
-            <div className="nav-link">
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={100}
-              >
-                <FcAbout />
-                About
-              </Link>
-            </div>
-            <div className="nav-link">
-              <Link
-                to="education"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={100}
-              >
-                <MdCastForEducation />
-                Education
-              </Link>
-            </div>
-            <div className="nav-link">
-              <Link
-                to="technology"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={100}
-              >
-                <GrTechnology />
-                Technology
-              </Link>
-            </div>
-            <div className="nav-link">
-              <Link
-                to="project"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={100}
-              >
-                <GrProjects />
-                Project
-              </Link>
-            </div>
-            {/* <div className="nav-link">
+          </Zoom>
+          <Fade left>
+            <div className="nav-items">
+              <div className="nav-link">
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcHome className="svg" />
+                  Home
+                </Link>
+              </div>
+              <div className="nav-link">
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcAbout />
+                  About
+                </Link>
+              </div>
+              <div className="nav-link">
+                <Link
+                  to="education"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <MdCastForEducation />
+                  Education
+                </Link>
+              </div>
+              <div className="nav-link">
+                <Link
+                  to="technology"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <GrTechnology />
+                  Technology
+                </Link>
+              </div>
+              <div className="nav-link">
+                <Link
+                  to="project"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <GrProjects />
+                  Project
+                </Link>
+              </div>
+              {/* <div className="nav-link">
               <Link to="" spy={true} 
       smooth={true} 
       offset={-100} 
@@ -84,19 +89,20 @@ const Menu = ({ toggle }) => {
                 Experince
               </Link>
             </div> */}
-            <div className="nav-link">
-              <Link
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={100}
-              >
-                <IoIosContact />
-                Contact
-              </Link>
+              <div className="nav-link">
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <IoIosContact />
+                  Contact
+                </Link>
+              </div>
             </div>
-          </div>
+          </Fade>
         </>
       ) : (
         <>

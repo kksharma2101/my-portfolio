@@ -5,7 +5,7 @@ import Resume from "../../components/layout/assets/docs/Resume1.pdf";
 import { useTheme } from "../../context/ThemeContext";
 
 const Home = () => {
-  const [theme, setTheme] = useTheme();
+  // const [theme, setTheme] = useTheme();
 
   return (
     <>
