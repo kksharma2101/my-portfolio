@@ -1,5 +1,6 @@
 import React from "react";
 import "./Menu.css";
+import { Link } from "react-scroll";
 import { FcAbout, FcHome } from "react-icons/fc";
 import { MdCastForEducation } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
@@ -15,46 +16,85 @@ const Menu = ({ toggle }) => {
           </div>
           <div className="nav-items">
             <div className="nav-link">
-              <p>
-                <FcHome />
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                <FcHome className="svg" />
                 Home
-              </p>
+              </Link>
             </div>
             <div className="nav-link">
-              <p>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
                 <FcAbout />
                 About
-              </p>
+              </Link>
             </div>
             <div className="nav-link">
-              <p>
+              <Link
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
                 <MdCastForEducation />
                 Education
-              </p>
+              </Link>
             </div>
             <div className="nav-link">
-              <p>
+              <Link
+                to="technology"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
                 <GrTechnology />
                 Technology
-              </p>
+              </Link>
             </div>
             <div className="nav-link">
-              <p>
+              <Link
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
                 <GrProjects />
                 Project
-              </p>
+              </Link>
             </div>
             {/* <div className="nav-link">
-              <p>
+              <Link to="" spy={true} 
+      smooth={true} 
+      offset={-100} 
+      duration={100}>
                 <MdOutlineWorkOutline />
                 Experince
-              </p>
+              </Link>
             </div> */}
             <div className="nav-link">
-              <p>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
                 <IoIosContact />
                 Contact
-              </p>
+              </Link>
             </div>
           </div>
         </>
@@ -62,39 +102,78 @@ const Menu = ({ toggle }) => {
         <>
           <div className="nav-items">
             <div className="nav-link">
-              <p className="only-svg">
-                <FcHome title="Home" />
-              </p>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                <FcHome />
+              </Link>
             </div>
             <div className="nav-link">
-              <p className="only-svg">
-                <FcAbout title="About" />
-              </p>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                <FcAbout />
+              </Link>
             </div>
             <div className="nav-link">
-              <p className="only-svg">
-                <MdCastForEducation title="Education" />
-              </p>
+              <Link
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                <MdCastForEducation />
+              </Link>
             </div>
             <div className="nav-link">
-              <p className="only-svg">
-                <GrTechnology title="Technology" />
-              </p>
+              <Link
+                to="technology"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                <GrTechnology />
+              </Link>
             </div>
             <div className="nav-link">
-              <p className="only-svg">
-                <GrProjects title="Projects" />
-              </p>
+              <Link
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                <GrProjects />
+              </Link>
             </div>
             {/* <div className="nav-link">
-              <p className="only-svg">
-                <MdOutlineWorkOutline title="Experience" />
-              </p>
+              <Link to="" spy={true} 
+      smooth={true} 
+      offset={-100} 
+      duration={100}>
+                <MdOutlineWorkOutline />
+              </Link>
             </div> */}
             <div className="nav-link">
-              <p className="only-svg">
-                <IoIosContact title="Contact" />
-              </p>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={100}
+              >
+                <IoIosContact />
+              </Link>
             </div>
           </div>
         </>

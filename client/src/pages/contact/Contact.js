@@ -5,7 +5,7 @@ import { TiSocialGithub, TiSocialLinkedin } from "react-icons/ti";
 const Contact = () => {
   return (
     <>
-      <div className="contact">
+      <div className="contact" id="contact">
         <div className="row">
           <div className="heading">
             <h1>Contact</h1>

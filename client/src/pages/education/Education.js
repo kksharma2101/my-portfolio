@@ -10,7 +10,7 @@ import { MdSchool } from "react-icons/md";
 const Education = () => {
   return (
     <>
-      <div className="education">
+      <div className="education" id="education">
         <div className="row">
           <div className="heading">
             <h1>Education</h1>
