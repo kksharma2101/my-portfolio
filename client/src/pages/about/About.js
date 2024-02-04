@@ -13,10 +13,14 @@ const About = () => {
           <div className="col-md-5 about-text">
             <h1>About Me</h1>
             <p>
-              Callback function to replace the internal method which creates a
-              text node for the character before adding it to the DOM. If you
-              return null, then it will not add anything to the DOM and so it is
-              up to you to handle it.
+              Hello, My self Komal kumar sharma and I am a Full Stack Web
+              Developer, I am looking for the opportunities to work in the
+              industry with the best of my efficiencies, and professional
+              skills, and to serve in the best possible way with sheer
+              determination and commitment. I am always keen to learn new things
+              with a fresh, enthusiastic approach that helps me be updated with
+              all the latest trends in the industry. Putting forward my passion
+              as a web developer.
             </p>
           </div>
         </div>

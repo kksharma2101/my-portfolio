@@ -9,13 +9,9 @@ const Projects = () => {
       <div className="projects" id="project">
         <div className="row">
           <RubberBand>
-            <div className="heading">
+            <div className="heading text-uppercase">
               <h1>My Projects</h1>
               <hr />
-              <p>
-                👉 Including Programing Languases, Framworkes, Databases,
-                Front-end and Back-end Tools and APIs
-              </p>
             </div>
           </RubberBand>
           <Spin>
@@ -27,9 +23,9 @@ const Projects = () => {
                 </div>
                 <div className="project-tech">
                   <span>Node.js</span>
-                  <span>React.js</span>
-                  <span>JavaScript</span>
+                  <span>React</span>
                   <span>MongoDB</span>
+                  <span>JavaScript</span>
                 </div>
                 <div className="link-btn">
                   <h5 className="text-uppercase">

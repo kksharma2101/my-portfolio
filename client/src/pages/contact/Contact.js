@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="contact" id="contact">
         <div className="row">
           <div className="heading">
-            <h1>Contact</h1>
+            <h1 className="text-uppercase">Contact</h1>
             <hr />
           </div>
           <div className="main-container">

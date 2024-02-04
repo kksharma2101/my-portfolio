@@ -12,7 +12,7 @@ const Education = () => {
     <>
       <div className="education" id="education">
         <div className="row">
-          <div className="heading">
+          <div className="heading text-uppercase">
             <h1>Education</h1>
             <hr />
           </div>
