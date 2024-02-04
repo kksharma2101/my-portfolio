@@ -55,25 +55,13 @@
   width: 300px;
   margin: 10px auto 20px auto;
 }
-.contact > .row > .main-container > .details > input,
+.contact > .row > .main-container > .details > form > input,
 textarea {
   margin-bottom: 20px;
   width: 90%;
   padding: 3px;
   font-size: 20px;
-  text-transform: uppercase;
-}
-.contact > .row > .main-container > .details > button {
-  border: none;
-  background-color: #1e1ed1;
-  padding: 5px 10px;
-  color: #fff;
-  border-radius: 10px;
-  font-size: 20px;
-  width: 200px;
-}
-.contact > .row > .main-container > .details > button:hover {
-  opacity: 0.8;
+  /* text-transform: uppercase; */
 }
 .contact > .row > .main-container > .details > .icons {
   width: 80%;

@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
 import { TiSocialGithub, TiSocialLinkedin } from "react-icons/ti";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <div className="contact" id="contact">
@@ -18,10 +41,20 @@ const Contact = () => {
             <div className="col-md-7 details">
               <h4>Please submit your details</h4>
               <hr />
-              <input type="text" name="name" placeholder="Write your name" />
-              <input type="email" name="email" placeholder="Write your email" />
-              <textarea placeholder="Write your email" />
-              <button>Send</button>
+              <form ref={form} onSubmit={sendEmail}>
+                <input
+                  type="text"
+                  name="from_name"
+                  placeholder="Write your name"
+                />
+                <input
+                  type="email"
+                  name="from_email"
+                  placeholder="Write your email"
+                />
+                <textarea placeholder="Write your message" name="message" />
+                <input type="submit" value="Send" className="button" />
+              </form>
               <div className="icons">
                 <TiSocialLinkedin />
                 <TiSocialGithub />
