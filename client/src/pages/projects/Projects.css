@@ -60,7 +60,9 @@
   margin: 3px;
   border-radius: 50px;
   padding: 6px 15px;
+  text-transform: uppercase;
   cursor: pointer;
+  font-size: 14px;
 }
 .link-btn {
   display: flex;

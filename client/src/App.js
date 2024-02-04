@@ -7,11 +7,14 @@ import Education from "./pages/education/Education";
 import Contact from "./pages/contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import Tada from "react-reveal/Tada";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <>
       <div className="app">
+        <ToastContainer />
         <Layout />
         <About />
         <Education />

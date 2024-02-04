@@ -49,10 +49,10 @@ const Projects = () => {
                   <img src="project1.png" alt="project" />
                 </div>
                 <div className="project-tech">
-                  <span className="details">Node.js</span>
                   <span className="details">React.js</span>
                   <span className="details">JavaScript</span>
-                  <span className="details">MongoDB</span>
+                  <span className="details">sass</span>
+                  <span className="details">redux</span>
                 </div>
                 <div className="link-btn">
                   <h4 className="text-uppercase">Moviex Website</h4>
