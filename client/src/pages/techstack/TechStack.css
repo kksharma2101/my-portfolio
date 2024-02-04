@@ -1,5 +1,5 @@
 .techstack {
-  padding-left: 130px;
+  padding-left: 60px;
   margin-top: 60px;
 }
 .techstack hr {
@@ -37,12 +37,15 @@
 /* =============================== */
 @media (max-width: 600px) {
   .techstack {
-    padding: 0;
+    padding-left: 50px;
     margin: 0;
     margin-top: 50px;
   }
 
   .techstack hr {
     width: 280px;
+  }
+  .techstack > .row {
+    padding-left: 20px;
   }
 }

@@ -9,24 +9,25 @@ const Home = () => {
 
   return (
     <>
-      <div className="container-fluid home-container" id="home">
-        {/* <div className="theme-btn"></div> */}
-        <div className="container home-content">
-          <h2>Hi 👋 I'm a</h2>
-          <h1>
-            <Typewriter
-              options={{
-                strings: ["Full Stack Web Developer !", "MERN Developer !"],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h1>
-          <div className="home-button">
-            <button className="btn btn-hire">Hire Me</button>
-            <a className="btn btn-cv" href={Resume}>
-              My Resume
-            </a>
+      <div className="home-container" id="home">
+        <div className="row">
+          <div className="home-content">
+            <h2>Hi 👋 I'm a</h2>
+            <h1>
+              <Typewriter
+                options={{
+                  strings: ["FullStack Web Developer !", "MERN Developer !"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
+            <div className="home-button">
+              <button className="btn btn-hire">Hire Me</button>
+              <a className="btn btn-cv" href={Resume}>
+                My Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

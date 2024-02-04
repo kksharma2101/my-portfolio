@@ -1,31 +1,54 @@
 .home-container {
   background-color: #000;
-  height: 255px;
+  height: 290px;
   color: #fff;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  padding-left: 80px;
 }
-.home-content h2 {
-  padding-top: 70px;
+.home-container > .row > .home-content h2 {
   font-weight: 700;
+  padding-top: 35px;
 }
 .home-content h1 {
   color: #e6ed2c;
   font-weight: 600;
+  line-height: 60px;
 }
-.home-content > .home-button {
-  padding-top: 14px;
+.home-container > .row > .home-content > .home-button {
+  padding-top: 30px;
 }
-.home-content > .home-button > .btn {
+.home-container > .row > .home-content > .home-button > .btn {
   border: none;
   background-color: #624bfc;
   color: #ffffffff;
   font-size: 25px;
 }
-.home-content > .home-button > .btn-cv {
+.home-container > .row > .home-content > .home-button > .btn-cv {
   margin-left: 30px;
 }
-.home-content > .home-button > .btn:hover {
+.home-container > .row > .home-content > .home-button > .btn:hover {
   opacity: 0.8;
   transition: 1s;
+}
+
+@media screen and (max-width: 512px) {
+  .home-container {
+    background-color: #000;
+    height: 250px;
+    color: #fff;
+    width: 100%;
+    padding-left: 60px;
+  }
+  .home-content h1 {
+    color: #e6ed2c;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .home-container > .row > .home-content > .home-button > .btn {
+    border: none;
+    background-color: #624bfc;
+    color: #ffffffff;
+    font-size: 20px;
+  }
 }

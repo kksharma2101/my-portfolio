@@ -27,7 +27,7 @@
   width: 90%;
   padding: 20px;
   border-radius: 10px;
-  margin-left: 90px;
+  margin-left: 80px;
   background-color: #fff;
 }
 .contact > .row > .main-container > .img {
@@ -83,11 +83,17 @@ textarea {
   cursor: pointer;
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 715px) {
   .contact > .row > .main-container {
     flex-direction: column;
   }
   .contact > .row > .main-container > .details > h4 {
     margin-top: 28px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .contact > .row > .main-container > .img > img {
+    width: 12rem;
+    border-radius: 10px;
   }
 }

@@ -19,7 +19,7 @@ const Projects = () => {
             </div>
           </RubberBand>
           <Spin>
-            <div className="main-container">
+            <div className="main-container extra">
               <div className="rounded">
                 <div className="image-container">
                   <span>Full Stack</span>
