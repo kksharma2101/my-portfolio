@@ -50,7 +50,7 @@ const Contact = () => {
               <img src="my-pic2.jpg" alt="contact" />
             </div>
             <div className="col-md-7 details">
-              <h4>Please submit your details</h4>
+              <h4>Connect with me</h4>
               <hr />
               <form ref={form} onSubmit={sendEmail}>
                 <input

@@ -4,8 +4,11 @@
   margin: 40px auto;
 }
 .education > .row > .heading > h1 {
-  color: #138781;
-  font-weight: bold;
+  background: linear-gradient(90deg, rgb(118, 81, 192), rgb(49, 172, 203)) text;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
 }
 .education > .row > .heading > hr {
   color: #138781;

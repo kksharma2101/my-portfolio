@@ -9,8 +9,11 @@
 }
 
 .techstack h2 {
-  font-weight: bold;
-  color: #138781;
+  background: linear-gradient(90deg, rgb(118, 81, 192), rgb(49, 172, 203)) text;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
 }
 .techstack p {
   color: #ffffff;

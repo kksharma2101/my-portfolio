@@ -10,16 +10,17 @@
   margin: 40px auto;
 }
 .contact > .row > .heading > h1 {
-  color: #138781;
-  font-weight: bold;
+  background: linear-gradient(90deg, rgb(118, 81, 192), rgb(49, 172, 203)) text;
   text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
 }
 .contact > .row > .heading > hr {
   color: #138781;
   width: 220px;
   margin: 10px auto 20px auto;
 }
-
 .contact > .row > .main-container {
   display: flex;
   align-items: center;
@@ -47,13 +48,17 @@
   padding-left: 30px;
 }
 .contact > .row > .main-container > .details > h4 {
-  color: #138781;
   text-transform: uppercase;
+  background: linear-gradient(90deg, rgb(118, 81, 192), rgb(49, 172, 203)) text;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
 }
 .contact > .row > .main-container > .details > hr {
   color: #138781;
   width: 300px;
-  margin: 10px auto 20px auto;
+  margin: 5px auto 20px auto;
 }
 .contact > .row > .main-container > .details > form > input,
 textarea {
@@ -62,6 +67,17 @@ textarea {
   padding: 3px;
   font-size: 20px;
   /* text-transform: uppercase; */
+}
+.contact > .row > .main-container > .details > form > .button {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  padding: 1.04167vw 1.51042vw;
+  background: linear-gradient(90deg, rgb(118, 81, 192), rgb(49, 172, 203));
+  box-shadow: rgba(0, 72, 168, 0.34) 0px 0.364583vw 1.40625vw -0.364583vw;
+  border-radius: 1.04167vw;
+  border: none;
 }
 .contact > .row > .main-container > .details > .icons {
   width: 80%;
@@ -74,13 +90,18 @@ textarea {
 .contact > .row > .main-container > .details > .icons > svg {
   font-size: 40px;
   padding: 5px;
-  background-color: #f8a6a6;
+  background-color: #4d7ff1;
   border-radius: 50px;
 }
 .contact > .row > .main-container > .details > .icons > svg:hover {
   padding: 3px;
   color: #1e1ed1;
   cursor: pointer;
+  background: linear-gradient(90deg, rgb(118, 81, 192), rgb(49, 172, 203)) text;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 715px) {
