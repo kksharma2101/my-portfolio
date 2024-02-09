@@ -96,7 +96,7 @@ export const TechstackList = [
   },
   {
     _id: 16,
-    name: "PostgreSQL ",
+    name: "PostgreSQL",
     icon: SiPostgresql,
   },
   {

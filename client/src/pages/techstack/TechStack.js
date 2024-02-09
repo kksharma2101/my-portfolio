@@ -30,7 +30,7 @@ const TechStack = () => {
                           <tech.icon className="tech-icon" />
                         </div>
                         <div className="media-body">
-                          <h5>{tech.name}</h5>
+                          <h5 className="myText">{tech.name}</h5>
                         </div>
                       </div>
                     </div>
