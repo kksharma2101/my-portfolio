@@ -11,6 +11,10 @@ import {
   SiTypescript,
   SiGithub,
   SiExpress,
+  SiGraphql,
+  SiNestjs,
+  SiPostgresql,
+  SiRedux,
 } from "react-icons/si";
 
 export const TechstackList = [
@@ -64,24 +68,44 @@ export const TechstackList = [
     name: "Express JS ",
     icon: SiExpress,
   },
-
   {
     _id: 11,
+    name: "Redux ",
+    icon: SiRedux,
+  },
+
+  {
+    _id: 12,
+    name: "GraphQL ",
+    icon: SiGraphql,
+  },
+  {
+    _id: 13,
     name: "Mongodb ",
     icon: SiMongodb,
   },
   {
-    _id: 12,
+    _id: 14,
     name: "SQL ",
     icon: SiMysql,
   },
   {
-    _id: 13,
-    name: "CSS / SCSS",
+    _id: 15,
+    name: "Nestjs ",
+    icon: SiNestjs,
+  },
+  {
+    _id: 16,
+    name: "PostgreSQL ",
+    icon: SiPostgresql,
+  },
+  {
+    _id: 17,
+    name: "CSS / SCSS ",
     icon: BsFiletypeCss,
   },
   {
-    _id: 14,
+    _id: 18,
     name: "Git / Github ",
     icon: SiGithub,
   },
