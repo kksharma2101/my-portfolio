@@ -45,7 +45,7 @@ export const TechstackList = [
   },
   {
     _id: 6,
-    name: "Nextjs",
+    name: "Next JS",
     icon: TbBrandNextjs,
   },
   {
@@ -91,7 +91,7 @@ export const TechstackList = [
   },
   {
     _id: 15,
-    name: "Nestjs ",
+    name: "Nest JS ",
     icon: SiNestjs,
   },
   {
