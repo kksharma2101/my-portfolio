@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "../../components/layout/assets/docs/Resume1.pdf";
+import Certificate from "../../components/layout/assets/docs/fswd-certificate.pdf";
 import { useTheme } from "../../context/ThemeContext";
 
 const Home = () => {
@@ -23,7 +24,9 @@ const Home = () => {
               />
             </h1>
             <div className="home-button">
-              <button className="btn btn-hire">Hire Me</button>
+              <a className="btn btn-hire" href={Certificate}>
+                Certificate
+              </a>
               <a className="btn btn-cv" href={Resume}>
                 My Resume
               </a>
