@@ -11,8 +11,8 @@ import {
   SiTypescript,
   SiGithub,
   SiExpress,
-  SiGraphql,
-  SiNestjs,
+  // SiGraphql,
+  // SiNestjs,
   SiPostgresql,
   SiRedux,
 } from "react-icons/si";
@@ -74,11 +74,11 @@ export const TechstackList = [
     icon: SiRedux,
   },
 
-  {
-    _id: 12,
-    name: "GraphQL ",
-    icon: SiGraphql,
-  },
+  // {
+  //   _id: 12,
+  //   name: "GraphQL ",
+  //   icon: SiGraphql,
+  // },
   {
     _id: 13,
     name: "Mongodb ",
@@ -89,11 +89,11 @@ export const TechstackList = [
     name: "SQL ",
     icon: SiMysql,
   },
-  {
-    _id: 15,
-    name: "Nest JS ",
-    icon: SiNestjs,
-  },
+  // {
+  //   _id: 15,
+  //   name: "Nest JS ",
+  //   icon: SiNestjs,
+  // },
   {
     _id: 16,
     name: "PostgreSQL",
