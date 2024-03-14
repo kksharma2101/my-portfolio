@@ -42,7 +42,7 @@ const Projects = () => {
               <div className="rounded">
                 <div className="image-container">
                   <span>Full Stack</span>
-                  <img src="project1.png" alt="project" />
+                  <img src="project2.png" alt="project" />
                 </div>
                 <div className="project-tech">
                   <span className="details">React.js</span>
