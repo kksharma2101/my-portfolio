@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import Resume from "../../components/layout/assets/docs/Resume1.pdf";
+import Resume from "../../components/layout/assets/docs/Resume.pdf";
 import Certificate from "../../components/layout/assets/docs/fswd-certificate.pdf";
 import { useTheme } from "../../context/ThemeContext";
 

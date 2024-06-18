@@ -31,7 +31,7 @@ const Projects = () => {
                   <h5 className="text-uppercase">
                     E-commerce Shopping Website
                   </h5>
-                  <a href="https://e-commerce-5n6kzehm5-kamal-sharmas-projects.vercel.app/">
+                  <a href="https://e-commerce-app-gilt-three.vercel.app/">
                     View
                   </a>
                 </div>
