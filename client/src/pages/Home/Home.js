@@ -3,7 +3,7 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "../../components/layout/assets/docs/Resume.pdf";
 import Certificate from "../../components/layout/assets/docs/fswd-certificate.pdf";
-import { useTheme } from "../../context/ThemeContext";
+// import { useTheme } from "../../context/ThemeContext";
 
 const Home = () => {
   // const [theme, setTheme] = useTheme();

@@ -50,7 +50,7 @@ const Projects = () => {
                   <span className="details">sass</span>
                   <span className="details">redux</span>
                 </div>
-                <div className="link-btn">
+                <div className="link-btn moviex-btn">
                   <h4 className="text-uppercase">Moviex Website</h4>
                   <a href="https://moviex-website-knf4cz3gc-kamal-sharmas-projects.vercel.app/">
                     View

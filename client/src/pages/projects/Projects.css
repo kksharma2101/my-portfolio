@@ -30,6 +30,7 @@
 .main-container > .rounded {
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   background-color: #fff;
+  height: 450px;
 }
 .main-container > .rounded > .image-container {
   position: relative;
@@ -89,6 +90,9 @@
   opacity: 0.7;
   color: #000000;
   font-weight: 700;
+}
+.moviex-btn {
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 512px) {
