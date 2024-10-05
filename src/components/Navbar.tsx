@@ -1,51 +1,77 @@
-import Link from 'next/link'
-import React, { useState } from 'react'
-import { GiHamburgerMenu } from "react-icons/gi";
-// import "../app/globals.css";
+'use client'
+import { useState } from 'react';
+import Link from 'next/link';
+import { GiCancel, GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
-    const [showToggle, SetShowToggle] = useState("small")
+    const [showMenu, setShowMenu] = useState(false);
 
-    const handleToggle = () => {
-        if (showToggle == true) {
+    const toggleMenu = () => {
+        if (showMenu == false) setShowMenu(true);
+        else setShowMenu(false)
+    };
 
-        }
-    }
     return (
-        <div>
-            <div className="fixed min-w-full flex justify-between items-center p-2">
-                <div className="">
-                    <h1 className="font-sans font-extrabold text-black p-2">KamalDev.</h1>
-                </div>
+        <nav>
+            <div className="min-w-max mx-auto px-2 sm:px-4 lg:px-6">
 
-                <div className="">
-                    <div className="absolute -left-full">
-                        <ul className='hidden sm:block'>
-                            <li className="">
-                                <Link href={"/about"}>Home</Link>
-                            </li>
-                            <li className="">
-                                <Link href={"/about"}>Projects</Link>
-                            </li>
-                            <li className="">
-                                <Link href={"/about"}>Education</Link>
-                            </li>
-                            <li className="">
-                                <Link href={"/about"}>Technology</Link>
-                            </li>
-                            <li className="">
-                                <Link href={"/about"}>About</Link>
-                            </li>
-                        </ul>
+                <div className="flex items-center justify-between h-16">
+
+                    <div className="w-full flex items-center justify-between">
+
+                        <Link href="/" className="text-black text-2xl font-extrabold">
+                            KamalDev.
+                        </Link>
+
+                        <div className={showMenu == true ? "smallScreen absolute w-[50%] h-[100vh] bg-black left-0 p-3 top-0 sm:hidden " : "bigScreen hidden sm:block"}>
+
+                            <ul
+                                className={showMenu == true
+                                    ?
+                                    "flex items-start flex-col gap-3 text-white"
+                                    :
+                                    "flex items-center gap-1"}>
+                                <li>
+                                    <Link href="/
+                                    projects"
+                                    >Home</Link>
+                                </li>
+                                <li>
+                                    <Link href="/about">About</Link>
+                                </li>
+                                <li>
+                                    <Link href="/project">Project</Link>
+                                </li>
+                                <li>
+                                    <Link href="/technology">Technology</Link>
+                                </li>
+                                <li>
+                                    <Link href="/contact">Contact</Link>
+                                </li>
+                                {/* <li className="navMail">
+                                    <Link href="mailto:harshitclub@gmail.com">
+                                        Mail <RiExternalLinkLine className="navMailIcon" />
+                                    </Link>
+                                </li> */}
+                            </ul>
+                        </div>
+
+                        <div className="cursor-pointer w-fit sm:hidden">
+                            {
+                                showMenu == false ? (<GiHamburgerMenu onClick={toggleMenu}
+                                    className='w-6 h-16'
+                                />) : (<GiCancel onClick={toggleMenu}
+                                    className='w-6 h-14'
+                                />)
+                            }
+                        </div>
+
                     </div>
 
-                    <div className="">
-                        <GiHamburgerMenu className='sm:hidden cursor-pointer' />
-                    </div>
                 </div>
             </div>
-        </div >
-    )
-}
+        </nav>
+    );
+};
 
-export default Navbar
+export default Navbar;
