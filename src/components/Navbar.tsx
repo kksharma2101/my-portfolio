@@ -32,8 +32,7 @@ const Navbar = () => {
                                     :
                                     "flex items-center gap-1"}>
                                 <li>
-                                    <Link href="/
-                                    projects"
+                                    <Link href="/"
                                     >Home</Link>
                                 </li>
                                 <li>

@@ -52,3 +52,7 @@ nav {
       font-size: 18px;
     }
 }
+.second {
+  rotate: 360deg;
+  transition: 2s linear;
+}
