@@ -8,7 +8,7 @@ import { RiExternalLinkLine } from 'react-icons/ri';
 
 const Introduction = () => {
     return (
-        <section className='mx-2 sm:mx-3 h-screen md:mx-4 lg:mx-5'>
+        <section className='mx-4 lg:mx-5'>
             <div className="bg-black h-full flex justify-between items-center p-5 mt-16">
                 <div className="text-white">
                     <h1 className="text-4xl font-bold py-4">Komal Kumar Sharma</h1>
@@ -35,7 +35,7 @@ const Introduction = () => {
                         <div className="w-72 h-72 bg-[#9CC32733] flex justify-center items-center rounded-full">
                             <div className="second w-64 h-64 bg-[#9CC32763] flex justify-center items-center rounded-full">
                                 <div className="w-56 h-56 bg-[#9CC327] flex justify-center items-center rounded-full">
-                                    <Image src="/my-pic.jpg" alt='my-picture' width={100} height={100} className='rounded-full w-fit h-fit' />
+                                    <Image src="/my-pic.png" alt='my-picture' width={100} height={100} className='relative -top-8 w-40 h-full' />
                                 </div>
                             </div>
                         </div>

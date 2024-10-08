@@ -8,51 +8,71 @@ nav {
   height: 4rem;
   z-index: 999;
   top: 0;
-  background-color: rgba(
-    232,
-    232,
-    232,
-    0.8
-  );
-  backdrop-filter: blur(10px); 
+  background-color: rgba(232,
+      232,
+      232,
+      0.8);
+  backdrop-filter: blur(10px);
   /* Adjust the blur radius as needed  */
-  -webkit-backdrop-filter: blur(
-    10px
-  ); /* For compatibility with some browsers */
-   margin: 0 0 10rem 0; 
-} 
+  -webkit-backdrop-filter: blur(10px);
+  /* For compatibility with some browsers */
+  margin: 0 0 10rem 0;
+}
 
-.smallScreen > ul > li {
+.smallScreen>ul>li {
   color: white;
   border-bottom: 1px dotted white;
   border-bottom-left-radius: 10px;
   padding: 1px;
 }
 
-@media screen and (min-width: 642px){
-  .bigScreen > ul > li {
-      color: white;
-      background-color: #000;
-      padding: 3px 10px;
-      border-radius: 3px;
-      font-size: 16px;
-      font-weight: 500;
-    }
-  .bigScreen > ul > li:hover {
-      color: #000;
-      background-color: #fff;
-      border: 1px solid #000;
-      transition: 0.8s ease-in;
-      transition: 0.6s ease-out;
-    }
+@media screen and (min-width: 642px) {
+  .bigScreen>ul>li {
+    color: white;
+    background-color: #000;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .bigScreen>ul>li:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: 0.8s ease-in;
+    transition: 0.6s ease-out;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .bigScreen > ul > li {
-      font-size: 18px;
-    }
+  .bigScreen>ul>li {
+    font-size: 18px;
+  }
 }
+
 .second {
   rotate: 360deg;
   transition: 2s linear;
+}
+
+/* About components css */
+.aboutCoverImage {
+  background: url("../../public/aboutbg.svg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.2rem;
+}
+
+.home-about > div{
+  background: #000;
+  padding: 0.5rem 1.2rem;
+  font-family: serif;
+  color: #fff;
+  border-radius: 5px;
+}
+.home-about > div:hover {
+  color: #000;
+  background: #fff;
+  border: 1px solid black;
 }
