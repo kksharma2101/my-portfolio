@@ -98,3 +98,70 @@ export const projects = [
     liveLink: "https://harshitclub.github.io/react-notes-app/",
   },
 ];
+
+export const technologies = [
+  {
+    id: 1,
+    tech: "JavaScript",
+  },
+  {
+    id: 2,
+    tech: "ReactJs",
+  },
+  {
+    id: 3,
+    tech: "NextJs",
+  },
+  {
+    id: 4,
+    tech: "HTML5 & CSS3",
+  },
+  {
+    id: 5,
+    tech: "Tailwind CSS",
+  },
+  {
+    id: 6,
+    tech: "Python",
+  },
+  {
+    id: 7,
+    tech: "Node.Js",
+  },
+  {
+    id: 8,
+    tech: "Express.js",
+  },
+  {
+    id: 9,
+    tech: "JWT",
+  },
+  {
+    id: 10,
+    tech: "Git & GitHub",
+  },
+  {
+    id: 11,
+    tech: "API",
+  },
+  {
+    id: 12,
+    tech: "Bootstrap",
+  },
+  {
+    id: 13,
+    tech: "MySQL",
+  },
+  {
+    id: 14,
+    tech: "NoSQL",
+  },
+  {
+    id: 15,
+    tech: "PostgreSQL",
+  },
+  {
+    id: 16,
+    tech: "MongoDB",
+  },
+];

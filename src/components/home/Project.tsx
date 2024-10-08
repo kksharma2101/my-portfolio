@@ -16,12 +16,12 @@ export const Project = () => {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 pt-5">
                     {
                         projectData.map((item) => (
-                            <div className="bg-black rounded-md text-white p-4 flex flex-col justify-between hover:bg-white hover:text-black hover:border-black border" key={item.id}>
+                            <div className="bg-black rounded-md text-white p-4 flex flex-col justify-between hover:bg-white hover:text-black hover:border-black border cursor-pointer" key={item.id}>
                                 <div className="flex items-center justify-between">
-                                    <Link href={item.codeLink} className='hover:text-blue-500 text-xl'>
+                                    <Link href={item.codeLink} className='hover:text-blue-600 text-xl'>
                                         <RiGithubFill />
                                     </Link>
-                                    <Link href={item.liveLink} className='hover:text-blue-500 text-xl'>
+                                    <Link href={item.liveLink} className='hover:text-blue-600 text-xl'>
                                         <RiExternalLinkLine />
                                     </Link>
                                 </div>
