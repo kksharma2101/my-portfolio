@@ -7,7 +7,6 @@ export const projects = [
     codeLink: "https://github.com/kksharma2101/my-portfolio",
     liveLink: "https://harshitclub.com",
   },
-
   {
     id: 2,
     title: "Women Empowerment NGO",

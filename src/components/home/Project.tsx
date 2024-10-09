@@ -15,7 +15,7 @@ export const Project = () => {
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 pt-5">
                     {
-                        projectData.map((item) => (
+                        projectData.slice(0, 3).map((item) => (
                             <div className="bg-black rounded-md text-white p-4 flex flex-col justify-between hover:bg-white hover:text-black hover:border-black border cursor-pointer" key={item.id}>
                                 <div className="flex items-center justify-between">
                                     <Link href={item.codeLink} className='hover:text-blue-600 text-xl'>
