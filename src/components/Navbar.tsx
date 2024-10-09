@@ -20,7 +20,7 @@ const Navbar = () => {
                     <div className="w-full flex items-center justify-between">
 
                         <Link href="/" className="text-black text-2xl font-extrabold">
-                            KamalDev.
+                            Kamal-Dev.
                         </Link>
 
                         <div className={showMenu == true ? "smallScreen absolute w-[50%] h-[100vh] bg-black left-0 p-3 top-0 sm:hidden " : "bigScreen hidden sm:block"}>
