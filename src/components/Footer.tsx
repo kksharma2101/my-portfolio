@@ -69,20 +69,12 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* <div className="footerTab fContactMail">
-                    <h2 className="text-xl font-bold mb-2">Kamal Sharma</h2>
-                    <p>
-                        <Link href="mailto:kamalbsr2101@gmail.com">
-                            harshit@harshitclub.com
-                        </Link>
-                    </p>
-                </div> */}
                 </div>
 
                 <div className="py-5">
                     <p className="text-center">
                         Copyright © 2024{" "}
-                        <Link href="https://harshitclub.com">harshitclub.com</Link> | All
+                        <Link href="/">kamal-dev.com</Link> | All
                         Right Reserved
                     </p>
                 </div>

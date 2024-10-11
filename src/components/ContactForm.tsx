@@ -57,153 +57,121 @@ function ContactForm() {
                     reason: "",
                     message: "",
                 });
-                // toast.success("Message Sent Successfully");
                 setStatus("success");
             } else {
                 setStatus("error");
             }
         } catch (error) {
-            // toast.error("Something Went Wrong | Try Again!");
             console.log(error);
         }
         setIsLoading(false);
     };
 
     return (
-        <form className="w-full flex justify-center" onSubmit={handleSubmit}>
-            <div className="bg-black p-5 w-full rounded-md">
-                <div className="flex flex-col gap-3 items-start">
-                    {/* <div className="mb-3 md:mb-0"> */}
-                    <input
-                        placeholder="Name*"
-                        type="text"
-                        className="border p-1 rounded-md"
-                        name="name"
-                        value={message.name}
-                        onChange={handleChange}
-                        required
-                    />
-                    {/* </div> */}
-                    {/* <div className="width49"> */}
-                    <input
-                        placeholder="Email*"
-                        type="email"
-                        className="border p-1 rounded-md"
-                        name="email"
-                        value={message.email}
-                        onChange={handleChange}
-                        required
-                    />
-                    {/* </div> */}
-                    {/* </div> */}
-                    {/* <div className="cInputs flex width100 spaceBtw"> */}
-                    {/* <div className="width49"> */}
-                    <input
-                        placeholder="Phone*"
-                        type="number"
-                        className="border p-1 rounded-md"
-                        name="phone"
-                        value={message.phone}
-                        onChange={handleChange}
-                    />
-                    {/* </div> */}
-                    {/* <div className="width49">
-                    <input
-                        placeholder="Website If Any"
-                        className="width100"
-                        type="text"
-                        name="website"
-                        value={message.website}
-                        onChange={handleChange}
-                    />
-                </div> */}
-                    {/* </div> */}
-                    {/* <div className="cInputs flex width100 spaceBtw"> */}
-                    {/* <div className="width49"> */}
-                    <input
-                        placeholder="Country"
-                        type="text"
-                        className="border p-1 rounded-md"
-                        name="country"
-                        value={message.country}
-                        onChange={handleChange}
-                    />
-                    {/* </div> */}
-                    {/* <div className="width49"> */}
-                    <input
-                        placeholder="Company"
-                        type="text"
-                        className="border p-1 rounded-md"
-                        name="company"
-                        value={message.company}
-                        onChange={handleChange}
-                    />
-                    {/* </div> */}
-                    {/* </div> */}
-                    {/* <div className="cInputs flex width100"> */}
-                    <div className="w-fit">
-                        <select
-                            className="border p-1 w-48 rounded-md"
-                            name="reason"
-                            value={message.reason}
-                            onChange={handleChange}
-                            required
-                        >
-                            <option className="">Select Reason For Contacting</option>
-                            <option>Services or pricing inquiry</option>
-                            <option>Quote or proposal request</option>
-                            <option>Technical assistance or support</option>
-                            <option>Collaboration or partnership opportunities</option>
-                            <option>Feedback or suggestions</option>
-                            <option>Job or career inquiries</option>
-                            <option>Invitations to speak or participate</option>
-                            <option>Questions about qualifications or portfolio</option>
-                            <option>Permission to use work or content</option>
-                            <option>General inquiries or questions.</option>
-                            <option>Other (Write It In Message)</option>
-                        </select>
-                    </div>
-                    {/* </div> */}
-                    {/* <div className="cInputs flex width100"> */}
-                    {/* <div className=""> */}
-                    <textarea
-                        placeholder="Your Message"
-                        className="border p-1 rounded-md w-full"
+        <form className="" onSubmit={handleSubmit}>
 
-                        // row="4"
-                        rows={4}
-                        name="message"
-                        value={message.message}
-                        onChange={handleChange}
-                        required
-                    />
-                    {/* </div> */}
-                    {/* </div> */}
+            <div className="flex items-center justify-center gap-4 flex-col px-5 sm:px-8 ">
 
-                    {/* <div className=" flex width100"> */}
-                    <div className="width100">
-                        {status === "success" ? (
-                            <p className="contactSent margin1 textCenter">
-                                Thank you for submitting your message. I will get back to you as
-                                soon as possible.
-                            </p>
-                        ) : (
-                            ""
-                        )}
-                        {status === "error" ? (
-                            <p className="contactError margin1 textCenter">
-                                Oops, there was an error submitting the form. Please try again
-                                later.
-                            </p>
-                        ) : (
-                            ""
-                        )}
+                <input
+                    className="border-2 w-full p-2 rounded-md"
+                    placeholder="Name*"
+                    type="text"
+                    name="name"
+                    value={message.name}
+                    onChange={handleChange}
+                    required
+                />
 
-                        <button type="submit" className="width100">
-                            {isLoading ? "Sending..." : "Submit"}
-                        </button>
-                    </div>
+                <input
+                    className="border-2 w-full p-2 rounded-md"
+                    placeholder="Email*"
+                    type="email"
+                    name="email"
+                    value={message.email}
+                    onChange={handleChange}
+                    required
+                />
+
+                <input
+                    className="border-2 w-full p-2 rounded-md"
+                    placeholder="Phone*"
+                    type="number"
+                    name="phone"
+                    value={message.phone}
+                    onChange={handleChange}
+                />
+
+                <input
+                    className="border-2 w-full p-2 rounded-md"
+                    placeholder="Country"
+                    type="text"
+                    name="country"
+                    value={message.country}
+                    onChange={handleChange}
+                />
+
+                <input
+                    className="border-2 w-full p-2 rounded-md"
+                    placeholder="Company"
+                    type="text"
+                    name="company"
+                    value={message.company}
+                    onChange={handleChange}
+                />
+
+                <select
+                    className="border-2 p-2 w-full rounded-md"
+                    name="reason"
+                    value={message.reason}
+                    onChange={handleChange}
+                    required
+                >
+                    <option className="">Select Reason For Contacting</option>
+                    <option>Job or career inquiries</option>
+                    <option>Quote or proposal request</option>
+                    <option>Technical assistance or support</option>
+                    <option>Collaboration or partnership opportunities</option>
+                    <option>Feedback or suggestions</option>
+                    <option>Invitations to speak or participate</option>
+                    <option>Questions about qualifications or portfolio</option>
+                    <option>Permission to use work or content</option>
+                    <option>General inquiries or questions.</option>
+                    <option>Other (Write It In Message)</option>
+                </select>
+
+                <textarea
+                    className="border-2 w-full p-2 rounded-md "
+                    placeholder="Your Message"
+                    rows={4}
+                    name="message"
+                    value={message.message}
+                    onChange={handleChange}
+                    required
+                />
+
+                <div className="w-full mt-5 text-white">
+                    {status === "success" ? (
+                        <p className="text-center m-2">
+                            Thank you for submitting your message. I will get back to you as
+                            soon as possible.
+                        </p>
+                    ) : (
+                        ""
+                    )}
+                    {status === "error" ? (
+                        <p className="text-center m-2">
+                            Oops, there was an error submitting the form. Please try again
+                            later.
+                        </p>
+                    ) : (
+                        ""
+                    )}
+
+                    <button type="submit" className=" w-full bg-blue-600 py-1 rounded-md text-white font-semibold text-center">
+                        {isLoading ? "Sending..." : "Submit"}
+                    </button>
                 </div>
+
             </div>
         </form>
     );

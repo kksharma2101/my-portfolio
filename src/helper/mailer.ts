@@ -21,8 +21,8 @@ export const sendEmail = async ({
 }: ContactProps) => {
   try {
     const transport = nodemailer.createTransport({
-      name: "mail.harshitclub.com",
-      host: "mail.harshitclub.com",
+      name: "mail.kamal-dev.com",
+      host: "mail.kamal-dev.com",
       port: 465,
       secure: true,
       auth: {

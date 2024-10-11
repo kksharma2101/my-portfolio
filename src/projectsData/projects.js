@@ -163,4 +163,8 @@ export const technologies = [
     id: 16,
     tech: "MongoDB",
   },
+  {
+    id: 17,
+    tech: "Reudx Toolkit",
+  },
 ];
