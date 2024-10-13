@@ -18,10 +18,10 @@ export const Project = () => {
                         projectData.slice(0, 3).map((item) => (
                             <div className="bg-black rounded-md text-white p-4 flex flex-col justify-between hover:bg-white hover:text-black hover:border-black border cursor-pointer" key={item.id}>
                                 <div className="flex items-center justify-between">
-                                    <Link href={item.codeLink} className='hover:text-blue-600 text-xl'>
+                                    <Link title='GitHub link' href={item.codeLink} className='hover:text-blue-600 text-xl'>
                                         <RiGithubFill />
                                     </Link>
-                                    <Link href={item.liveLink} className='hover:text-blue-600 text-xl'>
+                                    <Link title='Live link' href={item.liveLink} className='hover:text-blue-600 text-xl'>
                                         <RiExternalLinkLine />
                                     </Link>
                                 </div>
