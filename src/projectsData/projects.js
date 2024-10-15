@@ -5,7 +5,7 @@ export const projects = [
     desc: "This is my Personal Portfolio Website that I build using Next.js and resuable component etc.",
     tech: `Next.js | React.js | CSS | Vercel`,
     codeLink: "https://github.com/kksharma2101/my-portfolio",
-    liveLink: "https://harshitclub.com",
+    liveLink: "/",
   },
   {
     id: 2,
@@ -13,21 +13,20 @@ export const projects = [
     desc: "This is the ecommerce Website, I have build using React and node.js.",
     tech: `React.js | CSS | Express.js | Vercel`,
     codeLink: "https://github.com/kksharma2101/E-Commerce-App",
-    liveLink: "",
+    liveLink: "https://kamalecommerce.vercel.app/",
   },
   {
     id: 3,
     title: "Movies Web App",
-    desc: "This web display the latest and trending movies and shows, and search the any type of drama or movoes or shows.",
+    desc: "Movie search website in which all the data comes from the TMDB movie website.",
     tech: `Vite.js | SCSS | APIs | Redux`,
     codeLink: "https://github.com/kksharma2101/moviex-website/tree/main/client",
     liveLink: "https://moviex-website.vercel.app/",
   },
-
   {
     id: 4,
     title: "Movie Search Website",
-    desc: "Movie search website in which all the data comes from the TMDB movie website.",
+    desc: "",
     tech: `React.js | CSS | Redux | Github`,
     codeLink: "http://github.com/harshitclub/moviesflow",
     liveLink: "",
