@@ -9,19 +9,19 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Women Empowerment NGO",
-    desc: "This is Women Empowerment NGO Website Name `Chal Naari`, I build this for my Company.",
+    title: "Ecommerce Web App",
+    desc: "This is the ecommerce Website, I have build using React and node.js.",
     tech: `React.js | CSS | Express.js | Vercel`,
-    codeLink: "http://github.com/harshitclub/chalnaariweb",
-    liveLink: "https://chalnaari.vercel.app/",
+    codeLink: "https://github.com/kksharma2101/E-Commerce-App",
+    liveLink: "",
   },
   {
     id: 3,
-    title: "Haiwebtech Marketing",
-    desc: "Hai WebTech is a Digital Marketing website design that I build using core react.js.",
-    tech: `React.js | CSS | Github`,
-    codeLink: "https://github.com/harshitclub/haiwebtechfiles",
-    liveLink: "https://hai-web-tech.web.app/",
+    title: "Movies Web App",
+    desc: "This web display the latest and trending movies and shows, and search the any type of drama or movoes or shows.",
+    tech: `Vite.js | SCSS | APIs | Redux`,
+    codeLink: "https://github.com/kksharma2101/moviex-website/tree/main/client",
+    liveLink: "https://moviex-website.vercel.app/",
   },
 
   {
@@ -46,7 +46,7 @@ export const projects = [
     desc: "Simple Countdown web application counting going on targeted date.",
     tech: `HTML5 | CSS3 | JavaScript`,
     codeLink: "https://github.com/kksharma2101/countdown-/tree/main/countdown",
-    liveLink: "https://reactmoviesverse.web.app/",
+    liveLink: "/",
   },
   {
     id: 7,
@@ -63,15 +63,16 @@ export const projects = [
     tech: `JavaScript | CSS | HTML`,
     codeLink:
       "https://github.com/kksharma2101/project-with-JS/tree/main/random%20password",
-    liveLink: "https://react-blog-5b9ba.web.app/",
+    liveLink: "/",
   },
   {
     id: 9,
-    title: "Firebase Auth React",
-    desc: "Authentication Web App I build using React.js and Firebase for Authentication.",
-    tech: `React.js | CSS | Firebase | Github`,
-    codeLink: "https://github.com/harshitclub/react-auth-system",
-    liveLink: "https://auth-system-40f0d.web.app/",
+    title: "Beats Web App",
+    desc: "HTML Beats Web App I build using HTML and JavaScript and CSS.",
+    tech: `JavaScript | CSS | HTML | Github`,
+    codeLink:
+      "https://github.com/kksharma2101/Project-with-HTML-CSS-and-JS/tree/main/11th%20feb%20assignment/beats%20page",
+    liveLink: "/",
   },
   {
     id: 10,
