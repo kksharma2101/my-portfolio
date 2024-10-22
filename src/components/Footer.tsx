@@ -14,16 +14,16 @@ export default function Footer() {
                                 <Link href="/">Home</Link>
                             </li>
                             <li>
-                                <Link href="/blogs">Blogs</Link>
+                                <Link href="/">Blogs</Link>
                             </li>
                             <li>
-                                <Link href="/projects">Projects</Link>
+                                <Link href="/project">Projects</Link>
                             </li>
                             <li>
                                 <Link href="/about">About</Link>
                             </li>
                             <li>
-                                <Link href="/my-story">My Story</Link>
+                                <Link href="/">My Story</Link>
                             </li>
                         </ul>
                     </div>
@@ -32,22 +32,22 @@ export default function Footer() {
                         <h2 className="text-base font-semibold mb-2">Follow Me</h2>
                         <ul className="text-sm px-1">
                             <li>
-                                <Link href="https://linkedin.com/in/harshitclub" target="_blank">
+                                <Link href="https://www.linkedin.com/in/kksharma21/" target="_blank">
                                     LinkedIn
                                 </Link>
                             </li>
                             <li>
-                                <Link href="https://github.com/harshitclub" target="_blank">
+                                <Link href="https://github.com/kksharma2101" target="_blank">
                                     Github
                                 </Link>
                             </li>
                             <li>
-                                <Link href="https://twitter.com/harshitclub" target="_blank">
+                                <Link href="https://x.com/kamalbsr99" target="_blank">
                                     Twitter
                                 </Link>
                             </li>
                             <li>
-                                <Link href="https://instagram.com/harshitclub" target="_blank">
+                                <Link href="/" target="_blank">
                                     Instagram
                                 </Link>
                             </li>
@@ -61,10 +61,10 @@ export default function Footer() {
                         <h2 className="text-base font-semibold mb-2">Legal Pages</h2>
                         <ul>
                             <li>
-                                <Link href="/privacy-and-policy" className="text-sm px-1">Privacy Policy</Link>
+                                <Link href="/" className="text-sm px-1">Privacy Policy</Link>
                             </li>
                             <li>
-                                <Link href="/terms-and-conditions" className="text-sm px-1">Terms Conditions</Link>
+                                <Link href="/" className="text-sm px-1">Terms Conditions</Link>
                             </li>
                         </ul>
                     </div>
