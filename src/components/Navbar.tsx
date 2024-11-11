@@ -28,9 +28,9 @@ const Navbar = () => {
                             <ul
                                 className={showMenu == true
                                     ?
-                                    "flex items-start flex-col gap-3 text-white"
+                                    "flex items-start flex-col gap-5 text-white"
                                     :
-                                    "flex items-center gap-1"}>
+                                    "flex items-center gap-3"}>
                                 <li>
                                     <Link href="/"
                                     >Home</Link>

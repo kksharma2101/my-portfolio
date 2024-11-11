@@ -32,7 +32,7 @@ const AsideSection: React.FC<AsideSectionProps> = ({ tableOfContent }) => {
             </li>
           ))}
           <li>
-            <Link href="">Download My Resume</Link>
+            <Link href="My-resume.pdf">Download My Resume</Link>
           </li>
         </ul>
 

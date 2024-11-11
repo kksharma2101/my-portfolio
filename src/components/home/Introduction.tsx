@@ -18,14 +18,14 @@ const Introduction = () => {
                     <div className="flex items-center gap-8 my-4">
                         {/* <Link
                         className='flex items-center px-3 py-2 bg-cyan-50 text-black rounded-md gap-1'
-                        href="mailto:harshit@harshitclub.com">
+                        href="mailto:kamalbsr2101@gmail.com">
                         Certificate <RiExternalLinkLine />
                     </Link> */}
 
                         <a href="pw-certificate.pdf" className='flex items-center px-3 py-2 bg-white font-medium text-black rounded-md gap-1'>
                             Certificate <RiExternalLinkLine />
                         </a>
-                        <a href="resume.pdf" className='flex items-center px-3 py-2 bg-white font-medium text-black rounded-md gap-1'>
+                        <a href="My-resume.pdf" className='flex items-center px-3 py-2 bg-white font-medium text-black rounded-md gap-1'>
                             Resume <BsDownload />
                         </a>
                     </div>

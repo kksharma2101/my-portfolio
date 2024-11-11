@@ -25,19 +25,19 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Movie Search Website",
-    desc: "",
-    tech: `React.js | CSS | Redux | Github`,
-    codeLink: "http://github.com/harshitclub/moviesflow",
-    liveLink: "",
+    title: "Calendar Web App",
+    desc: "Add events specific date and set time",
+    tech: "ReactJs | PostgreSQL | NodeJs | Bootstrap | Express",
+    codeLink: "https://github.com/kksharma2101/events-calendar",
+    liveLink: "/project",
   },
   {
     id: 5,
-    title: "Website Design React",
-    desc: "Simple website design that I build using react.js and framer motion for animation.",
-    tech: `React.js | CSS | Github`,
-    codeLink: "https://github.com/harshitclub/b2b-project",
-    liveLink: "https://harshitclub.github.io/b2b-project/",
+    title: "Dice Game",
+    desc: "Play dice game and check you wining score",
+    tech: `NextJs | Typescript | Tailwind CSS`,
+    codeLink: "https://github.com/kksharma2101/Dice-Game",
+    liveLink: "/project",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const projects = [
     desc: "Simple Countdown web application counting going on targeted date.",
     tech: `HTML5 | CSS3 | JavaScript`,
     codeLink: "https://github.com/kksharma2101/countdown-/tree/main/countdown",
-    liveLink: "/",
+    liveLink: "/project",
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ export const projects = [
     tech: `JavaScript | CSS | HTML`,
     codeLink:
       "https://github.com/kksharma2101/project-with-JS/tree/main/random%20password",
-    liveLink: "/",
+    liveLink: "/project",
   },
   {
     id: 9,
@@ -71,31 +71,15 @@ export const projects = [
     tech: `JavaScript | CSS | HTML | Github`,
     codeLink:
       "https://github.com/kksharma2101/Project-with-HTML-CSS-and-JS/tree/main/11th%20feb%20assignment/beats%20page",
-    liveLink: "/",
+    liveLink: "/project",
   },
   {
     id: 10,
     title: "React Js Weather App",
     desc: "Weather app in React.js in which you can enter your city name and see the weather.",
     tech: `React.js | CSS | Github`,
-    codeLink: "https://github.com/harshitclub/react-weather",
-    liveLink: "https://harshitclub.github.io/react-weather/",
-  },
-  {
-    id: 11,
-    title: "React Contact Manager",
-    desc: "Contact Manager built using react.js in which you can add and delete your contacts.",
-    tech: `React.js | CSS | Github`,
-    codeLink: "https://github.com/harshitclub/react-contact-manager",
-    liveLink: "https://harshitclub.github.io/react-contact-manager/",
-  },
-  {
-    id: 12,
-    title: "React Notes App",
-    desc: "Notes Taking app built using React.js in which we can take and delete notes.",
-    tech: `React.js | CSS | Github`,
-    codeLink: "https://github.com/harshitclub/react-notes-app",
-    liveLink: "https://harshitclub.github.io/react-notes-app/",
+    codeLink: "",
+    liveLink: "/project",
   },
 ];
 
