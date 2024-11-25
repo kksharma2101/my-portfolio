@@ -10,7 +10,7 @@ const Introduction = () => {
     <section className="mx-4 lg:mx-5">
       <div className="bg-black h-full flex justify-between items-center p-5 mt-16">
         <div className="text-white">
-          <h1 className="text-4xl font-bold py-4">Kamal Kumar Sharma</h1>
+          <h1 className="text-4xl font-bold py-4">Kamal Sharma</h1>
           <h1 className="text-3xl font-semibold font-serif">
             Full-Stack Web Developer
           </h1>
