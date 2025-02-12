@@ -26,42 +26,43 @@ function ContactForm() {
     setFormData((prevformData) => ({ ...prevformData, [name]: value }));
   };
 
-//   const options = {
-//     method: "POST",
-//     url: "/api/sendemail",
-//     headers: {
-//       Accept: "application/json",
-//       'Content-Type': 'application/x-www-form-urlencoded',
-//     },
-//     body: JSON.stringify(formData),
-//   };
+  //   const options = {
+  //     method: "POST",
+  //     url: "/api/sendemail",
+  //     headers: {
+  //       Accept: "application/json",
+  //       'Content-Type': 'application/x-www-form-urlencoded',
+  //     },
+  //     body: JSON.stringify(formData),
+  //   };
 
   const handleSubmit = async (e: React.ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
     try {
-        console.log('check')
-        const response = await axios.post('http://localhost:3000/api/sendemail', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              email: 'recipient@example.com',
-              subject: 'Test Email',
-              message: 'Hello, this is a test email from Mailgun!',
-            }),
-          });
-          console.log('2nd check')
-        
-        //   const result = await response.json();
-        console.log('3rd check', response)
+      console.log("check");
+      setStatus("success");
+      const response = await axios.post("http://localhost:3000/api/sendemail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: "recipient@example.com",
+          subject: "Test Email",
+          message: "Hello, this is a test email from Mailgun!",
+        }),
+      });
+      console.log("2nd check");
 
-          if (response) {
-            console.log('Email sent:', response);
-          } else {
-            console.error('Failed to send email:', response);
-          }
+      //   const result = await response.json();
+      console.log("3rd check", response);
+
+      if (response) {
+        console.log("Email sent:", response);
+      } else {
+        console.error("Failed to send email:", response);
+      }
     } catch (error) {
       console.log(error);
     }
