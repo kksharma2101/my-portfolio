@@ -8,7 +8,7 @@ import { RiExternalLinkLine } from "react-icons/ri";
 const Introduction = () => {
   return (
     <section className="mx-4 lg:mx-5">
-      <div className="bg-black h-full flex justify-between items-center p-5 mt-16">
+      <div className="bg-black h-full flex justify-between items-center p-5 mt-16 rounded-b-md">
         <div className="text-white">
           <h1 className="text-4xl font-bold py-4">Kamal Sharma</h1>
           <h1 className="text-3xl font-semibold font-serif">
@@ -33,7 +33,7 @@ const Introduction = () => {
               Certificate <RiExternalLinkLine />
             </a>
             <a
-              href="MERN-resume.pdf"
+              href="mern-resume.pdf"
               className="flex items-center px-3 py-2 bg-white font-medium text-black rounded-md gap-1"
             >
               Resume <BsDownload />

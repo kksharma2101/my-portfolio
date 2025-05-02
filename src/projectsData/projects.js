@@ -25,10 +25,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Calendar Web App",
-    desc: "Add events specific date and set time",
-    tech: "ReactJs | PostgreSQL | NodeJs | Bootstrap | Express",
-    codeLink: "https://github.com/kksharma2101/events-calendar",
+    title: "AI Notes App",
+    desc: "Add notes and summarize content using Groq-API. User edit and delete the notes",
+    tech: "Next.js | GroqAI-API | Supabase Database",
+    codeLink: "https://github.com/kksharma2101/ai-notes-app",
     liveLink: "/project",
   },
   {
@@ -75,10 +75,34 @@ export const projects = [
   },
   {
     id: 10,
+    title: "The Digital Dinner",
+    desc: "User register yourself as a user or admin. if user admin so create category and add product and manage admin dashboard, if user is user so browse menuItems and add to cart and order items.",
+    tech: "React | Tailwind CSS | Node | Express",
+    codeLink: "https://github.com/kksharma2101/the-digital-dinner",
+    liveLink: "/project",
+  },
+  {
+    id: 11,
+    title: "Calendar Web App",
+    desc: "Add events specific date and set time",
+    tech: "ReactJs | PostgreSQL | NodeJs | Bootstrap | Express",
+    codeLink: "https://github.com/kksharma2101/events-calendar",
+    liveLink: "/project",
+  },
+  {
+    id: 12,
     title: "React Js Weather App",
     desc: "Weather app in React.js in which you can enter your city name and see the weather.",
-    tech: `React.js | CSS | Github`,
+    tech: "React.js | CSS | Github",
     codeLink: "",
+    liveLink: "/project",
+  },
+  {
+    id: 13,
+    title: "Vehicle Booking App",
+    desc: "The user book the vehicles and and check confirmations of vehicle",
+    tech: "Next.js | Tailwind CSS | TypeScript",
+    codeLink: "https://github.com/kksharma2101/vehicle-booking-app",
     liveLink: "/project",
   },
 ];
@@ -150,6 +174,6 @@ export const technologies = [
   },
   {
     id: 17,
-    tech: "Reudx Toolkit",
+    tech: "Redux-Toolkit",
   },
 ];
