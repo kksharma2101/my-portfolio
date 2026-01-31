@@ -10,7 +10,7 @@ export default function About() {
 
                 <h1 className="text-center font-serif font-semibold text-2xl lg:text-3xl pt-4">Get to Know Me</h1>
                 <p className="pt-5 font-serif text-justify">
-                    Hi, I`m Komal Sharma, a web developer who specializes in creating
+                    Hi, I`m Kamal Sharma, a web developer who specializes in creating
                     dynamic and responsive websites and web applications. I use the latest
                     technologies such as React.js, Next.js, Node.js, and more to build
                     websites that are not only visually appealing but also high-performing
